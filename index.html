@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- header section start  -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="./windData/index.html">warnings</a></li>
+            <li><a href="./timezone.html/timezone.html">Data Suite</a></li>
+            <li><a href="index.html">local Weather</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- header section end -->
+
+      <!-- intro_banner start  -->
+      <div class="intro_banner">
+        <!-- logo start  -->
+        <div class="log">
+          <i class="fa-solid fa-sun"></i>
+          <p>AccuWeather</p>
+        </div>
+        <!-- logo end  -->
+
+        <!-- input section start  -->
+        <div class="input_section">
+          <form class="searchForm">
+            <input type="text" class="search_city" placeholder="Enter city" />
+            <button type="submit" class="searchBtn">Search</button>
+        </form>
+    </div>
+        <!-- input section end  -->
+
+        <!-- img slider start  -->
+        <section class="image_slider">
+          <div class="slider">
+            <img src="./image/4.jpg" class="slide active" />
+            <img src="./image/1.jpg" class="slide" />
+            <img src="./image/2.jpg" class="slide" />
+            <img src="./image/3.jpg" class="slide" />
+            <img src="./image/5.jpg" class="slide" />
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+          </div>
+        </section>
+        <!-- img slider end -->
+
+        <!-- showweather data section start  -->
+        <div class="weatherData">
+          <p class="country"></p>
+          <p class="dateTime"></p>
+          <div class="temperaturePrent">
+            <p class="temperature"></p>
+            <p class="cluds_icon"></p>
+          </div>
+          <p class="feels_like"></p>
+        </div>
+        <!-- showweather data section end  -->
+      </div>
+      <!-- intro_banner end  -->
+
+      <!-- map section start  -->
+      <div class="mapContainer"></div>
+      <!-- map section start  -->
+
+      <!-- cities weather cards start -->
+      <div class="citiesWeather"></div>
+      <!-- cities weather cards end -->
+
+      <!-- sunset and sunrise section start  -->
+      <div class="sunParent">
+        <p class="sunrise samebox">🌅 Sunrise: 5:30 AM</p>
+        <p class="zain samebox">Zain Khan – Frontend Web Developer 💻</p>
+        <p class="sunset samebox">🌇 Sunset: 6:45 PM</p>
+      </div>
+      <!-- sunset and sunrise section -->
+
+      <!-- footer section start  -->
+      <div class="footer">
+        <div class="footer-box">
+          <i class="fas fa-tachometer-alt"></i>
+          <p class="pressure">Pressure</p>
+        </div>
+        <div class="footer-box">
+          <i class="fas fa-water"></i>
+          <p class="sea_leve">Sea Level</p>
+        </div>
+        <div class="footer-box">
+          <i class="fas fa-mountain"></i>
+          <p class="grnd_level">Ground Level</p>
+        </div>
+        <div class="footer-box">
+          <i class="fas fa-thermometer-quarter"></i>
+          <p class="temp_min">Min Temp</p>
+        </div>
+        <a class="emailLink" href="mailto:zainkhan731@gmail.com">zainkhan731@gmail.com</a>
+      </div>
+      <!-- footer section end -->
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
